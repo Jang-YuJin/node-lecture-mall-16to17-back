@@ -1,6 +1,6 @@
 const Lecture = require('../models/Lecture');
 const generateLectureSno = require('../utils/generateLectureSno');
-const PAGE_SIZE = 1;
+const PAGE_SIZE = 5;
 const lectureController = {};
 
 lectureController.getLectureSno = async(req, res) => {
